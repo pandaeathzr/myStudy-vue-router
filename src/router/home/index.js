@@ -16,11 +16,14 @@ const homeRoutes = [
         name: 'homepage',
         path: '/homePage',
         component: home,
+        children: [
+          {
+            path: '/homePageSon',
+            component: sonHome,
+          }
+        ]
       },
-      {
-        path: '/homePageSon',
-        component: sonHome,
-      }
+
     ]
   }
 ]

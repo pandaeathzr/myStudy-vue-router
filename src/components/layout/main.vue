@@ -34,9 +34,9 @@ export default {
     }
   },
   methods: {
-    handleClick() {
-      console.log(this.$router)
-    }
+    // handleClick() {
+    //   console.log(this.$router)
+    // }
   }
 }
 </script>
