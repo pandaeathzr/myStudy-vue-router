@@ -5,7 +5,7 @@ import sonHome from '../../modules/home/components/son';
 const homeRoutes = [
   {
     path: '/',
-    rediect: '/home'
+    redirect: '/home'
   },
   {
     path: '/home',
