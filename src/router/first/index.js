@@ -1,6 +1,6 @@
 // const first = () => {import('../../modules/first/index')};
 import first from '../../modules/first/index';
-import Main from '../../components/layout/main'
+import Main from '../../components/layout/main';
 const firstRoutes = {
   path: '/first',
   component: Main,
